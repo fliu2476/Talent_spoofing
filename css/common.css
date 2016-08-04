@@ -1,0 +1,115 @@
+html,body{
+    font: 16px '微软雅黑';
+}
+.w960{
+    width: 960px;
+    margin: 0 auto;
+}
+.w1200{
+    width: 1200px;
+    margin: 0 auto;
+}
+h2{
+    font-size: 32px;
+    font-weight: 700;
+    color: #4a4a4a;
+}
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
+
+/*公共头部样式*/
+header{
+    height: 104px;
+    min-width: 1200px;
+    background: #4a4a4a;
+}
+header .header-wrapper{
+    height: 100%;
+    background:  url("../img/logo.png") no-repeat left;
+}
+header ul{
+    display: inline-block;
+    margin-left: 140px;
+    float: left;
+}
+header ul li{
+    float: left;
+    line-height: 104px;
+    padding-right: 18px;
+}
+header ul li.active a{
+    border-top: 3px solid #46ad8f;
+}
+header li a{
+    font-size: 18px;
+    display: inline-block;
+    height: 104px;
+    line-height:104px;
+    color: #fff;
+    font-weight: 600;
+    border-top: 3px solid #4a4a4a;
+}
+header li a:hover{
+    color: #e3e3e3;
+}
+header .shares-bar{
+    float: right;
+    margin-top: 41px;
+}
+.shares-bar a{
+    float: left;
+    width: 22px;
+    height: 22px;
+    margin-left: 15px;
+    display: inline-block;
+}
+.shares-bar .facebook-icon{
+    background: url("../img/share.png") no-repeat;
+}
+.shares-bar .twitter-icon{
+    background: url("../img/share.png") no-repeat -27px 0px;
+}
+.shares-bar .ins-icon{
+    background: url("../img/share.png") no-repeat -65px 0px;
+}
+.shares-bar .dribble-icon{
+    background: url("../img/share.png") no-repeat -101px 0px;
+}
+.shares-bar .behance-icon{
+    background: url("../img/share.png") no-repeat -137px 0px;
+}
+/*公共头部样式结束*/
+/*页脚*/
+footer{
+    height: 115px;
+    background: #4a4a4a;
+    padding: 80px;
+    text-align: center;
+}
+footer .footer-list a{
+    margin-left: 30px;
+    font-size: 14px;
+    color: #fff;
+}
+footer .shares-bar{
+    overflow: hidden;
+    width: 200px;
+    margin: 40px auto 30px;
+}
+footer .copyright{
+    font-size: 14px;
+    color: #fff;
+}
+
+

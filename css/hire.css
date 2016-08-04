@@ -1,0 +1,216 @@
+.carousel{
+    min-width: 1200px;
+    height: 520px;
+    border-bottom: 4px solid #ecebeb;
+    background: #f7f7f7;
+    position: relative;
+    margin-bottom: 70px;
+    color: #999;
+}
+.carousel .w710{
+    width: 710px;
+    margin: 0 auto;
+    padding-top: 80px;
+    text-align: center;
+}
+.carousel h2{
+    font-size: 38px;
+    margin-bottom: 40px;
+    color: #4a4a4a;
+}
+.carousel p{
+    font-size: 16px;
+    color: #999;
+    line-height: 24px;
+    margin-bottom: 34px;
+}
+.carousel a{
+    color: #46ad8f;
+    text-decoration: none;
+}
+.carousel .follow-group{
+    width: 222px;
+    margin: 44px auto 0;
+}
+.carousel .follow-group a{
+    width: 34px;
+    height: 34px;
+    display: block;
+    float: left;
+    margin-right:10px;
+    border-radius: 17px;
+}
+.carousel .follow-group .facebook{
+    background: url("../img/share.png") #3b5998 no-repeat  11px 7px;
+}
+.carousel .follow-group .twitter{
+    background: url("../img/share.png") #00aced no-repeat  -19px 7px;
+}
+.carousel .follow-group .ins{
+    background: url("../img/share.png") #456bbc no-repeat  -57px 7px;
+}
+.carousel .follow-group .dribble{
+    background: url("../img/share.png") #ea4c89 no-repeat  -94px 7px;
+}
+.carousel .follow-group .behance{
+    background: url("../img/share.png") #1769ff no-repeat  -130px 7px;
+}
+.carousel .tips{
+    height: 46px;
+    margin-top: 28px;
+    background: #4a4a4a;
+    position: relative;
+    line-height: 46px;
+    color: #fff;
+    font-size: 14px;
+    display: inline-block;
+    padding: 0 10px;
+    left: -94px;
+}
+.carousel .tips:after{
+    display: block;
+    content: '';
+    width: 0;
+    height: 0;
+    border-bottom: 8px solid #4a4a4a;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    position: absolute;
+    left: 50%;
+    margin-left: -7px;
+    top: -8px;
+}
+.carousel p span{
+    margin-right: 40px;
+}
+.carousel p span a{
+    margin-left: 10px;
+}
+/*work*/
+.work-experience{
+    padding-top: 80px;
+}
+.work-experience .w-text{
+    width: 28.3333%;
+    padding-right: 5%;
+    float: left;
+}
+.work-experience .w-pic{
+    width: 66.666%;
+    float: left;
+}
+.work-experience .item{
+    padding-right: 5%;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #ecebeb;
+    margin-bottom: 50px;
+}
+.work-experience .item h3{
+    font-size: 24px;
+    margin-bottom: 40px;
+    color: #4a4a4a;
+}
+.work-experience .item p{
+    font-size: 16px;
+    line-height:24px;
+    margin-bottom: 30px;
+    color: #999;
+}
+.work-experience .item a{
+    color: #46ad8f;
+}
+
+.work-experience .item .reporter-pic{
+    width: 64px;
+    height: 64px;
+    margin-left: 60px;
+    border-radius: 32px;
+    float: left;
+}
+.work-experience .item .reporter-pic img{
+    width: 64px;
+    height: 64px;
+    border-radius: 32px;
+}
+.work-experience .item .reporter-name{
+    float: left;
+    padding-left:10px;
+    padding-top: 10px;
+}
+.work-experience .item .reporter-name p{
+    font-size: 14px;
+    line-height: 24px;
+    color: #333;
+    margin: 0;
+}
+.work-experience .item .reporter-name .p2{
+    color: #46ad8f;
+}
+.work-experience .w-pic .el{
+    width: 100%;
+    height: 460px;
+    margin-bottom: 42px;
+}
+.work-experience .w-pic .el1{
+    background: #11919a;
+}
+.work-experience .w-pic .el2{
+    background: #febd2b;
+}
+.work-experience .w-pic .el3{
+    background: #ec5b22;
+}
+
+.nav-bottom {
+    width: 100%;
+    height: 520px;
+}
+.nav-bottom a{
+    display: block;
+    float: left;
+    width: 33.3333%;
+    height: 100%;
+    padding-top:166px;
+    text-align: center;
+    box-sizing: border-box;
+    background: #3d776a;
+    color: #fff;
+}
+.nav-bottom .a1 i{
+    width: 20px;
+    height: 10px;
+    margin-right: 10px;
+    display: inline-block;
+    background: url("../img/pre.png") no-repeat;
+}
+.nav-bottom .a3 i{
+    width: 20px;
+    height: 10px;
+    margin-left: 10px;
+    display: inline-block;
+    background: url("../img/nxt.png") no-repeat;
+}
+.nav-bottom .a2{
+    background: #46ad8f;
+    padding-left: 96px;
+    padding-right: 96px;
+    box-sizing: border-box;
+}
+.nav-bottom .a2 button{
+    width: 196px;
+    height: 44px;
+    background: #46ad8f;
+    border: 2px solid #fff;
+    border-radius: 24px;
+    color: #fff;
+    margin-top: 32px;
+    cursor: pointer;
+}
+.nav-bottom h2{
+    font-size: 38px;
+    color: #fff;
+}
+.nav-bottom h4{
+    line-height:24px;
+    margin-bottom: 70px;
+}

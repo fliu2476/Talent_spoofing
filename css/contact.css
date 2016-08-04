@@ -1,0 +1,150 @@
+.carousel{
+    min-width: 1200px;
+    height: 520px;
+    border-bottom: 4px solid #ecebeb;
+    background: #f7f7f7;
+    position: relative;
+    margin-bottom: 70px;
+    color: #999;
+}
+.carousel .w710{
+    width: 710px;
+    margin: 0 auto;
+    padding-top: 80px;
+    text-align: center;
+}
+.carousel h2{
+    font-size: 38px;
+    margin-bottom: 40px;
+    color: #4a4a4a;
+}
+.carousel p{
+    font-size: 16px;
+    color: #999;
+    line-height: 24px;
+    margin-bottom: 34px;
+}
+.carousel a{
+    color: #46ad8f;
+    text-decoration: none;
+}
+.carousel .follow-group{
+    margin: 44px auto 0;
+    position: relative;
+    font-size: 0;
+}
+.carousel .follow-group a{
+    width: 34px;
+    height: 34px;
+    display: inline-block;
+    margin-right:10px;
+    border-radius: 17px;
+}
+.carousel .follow-group .facebook{
+    background: url("../img/share.png") #3b5998 no-repeat  11px 7px;
+}
+.carousel .follow-group .twitter{
+    background: url("../img/share.png") #00aced no-repeat  -19px 7px;
+}
+.carousel .follow-group .ins{
+    background: url("../img/share.png") #456bbc no-repeat  -57px 7px;
+}
+.carousel .follow-group .dribble{
+    background: url("../img/share.png") #ea4c89 no-repeat  -94px 7px;
+}
+.carousel .follow-group .behance{
+    background: url("../img/share.png") #1769ff no-repeat  -130px 7px;
+}
+.carousel .tips{
+    width: 180px;
+    height: 46px;
+    margin-top: 28px;
+    background: #4a4a4a;
+    position: absolute;
+    line-height: 46px;
+    color: #fff;
+    font-size: 14px;
+    padding: 0 10px;
+    top: 20px;
+    left: 161px;
+    cursor: pointer;
+    display: none;
+}
+.carousel .tips:after{
+    display: block;
+    content: '';
+    width: 0;
+    height: 0;
+    border-bottom: 8px solid #4a4a4a;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    position: absolute;
+    left: 50%;
+    margin-left: -7px;
+    top: -8px;
+}
+
+.submit-info{
+    padding: 100px 0;
+}
+.submit-info .left{
+    width: 35%;
+    padding-right: 5%;
+    float: left;
+}
+.submit-info .left h3{
+    font-size: 24px;
+    line-height: 52px;
+    color: #4a4a4a;
+    margin-bottom: 30px;
+}
+.submit-info .left p{
+    font-size: 16px;
+    line-height: 24px;
+    color: #999;
+    margin-bottom: 30px;
+}
+.submit-info .right{
+    width: 60%;
+    float: left;
+}
+.submit-info .right label{
+    font-size: 16px;
+    line-height: 24px;
+    color: #4a4a4a;
+}
+.submit-info .right sup{
+    color: #e45959;
+}
+.submit-info .right p{
+    margin: 10px 0 18px;
+}
+.submit-info .right input{
+    width: 536px;
+    height: 46px;
+    background: #f7f7f7;
+    border: 0;
+    outline: 0;
+    padding: 0;
+}
+.submit-info .right textarea{
+    width: 536px;
+    height: 178px;
+    background: #f7f7f7;
+    border: 0;
+    outline: 0;
+}
+.submit-info .submit-btn{
+    width: 536px;
+    text-align: center;
+}
+.submit-info .right input[type='submit']{
+    width: 148px;
+    height: 48px;
+    border: 0;
+    outline: 0;
+    border-radius: 24px;
+    background: #46ad8f;
+    color: #f7f7f7;
+    font-size: 16px;
+}

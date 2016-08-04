@@ -1,0 +1,390 @@
+
+/*轮播图样式*/
+.carousel{
+    min-width: 1200px;
+    height: 520px;
+    border-bottom: 4px solid #ecebeb;
+    background: #f7f7f7;
+    position: relative;
+    margin-bottom: 70px;
+}
+.carousel .w960{
+    padding-top: 60px;
+}
+.carousel .carousel-container{
+    overflow: hidden;
+    height: 404px;
+    position: relative;
+}
+.carousel ul{
+    display: block;
+    width: 9999px;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.carousel ul li{
+    display: block;
+    float: left;
+    overflow: hidden;
+}
+.carousel .li-left{
+    float: left;
+}
+.carousel .carousel-container .li-left img{
+    width: 530px;
+    height: 400px;
+}
+.carousel .li-right{
+    padding: 40px;
+    float: left;
+    position: relative;
+}
+.carousel .li-right h3{
+    color: #4a4a4a;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 32px;
+    width: 350px;
+    margin-bottom: 10px;
+}
+.carousel .li-right h2{
+    color: #4a4a4a;
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 36px;
+    width: 350px;
+    margin-bottom: 40px;
+}
+.carousel .li-right p{
+    width: 350px;
+    font-size: 20px;
+    line-height: 24px;
+    color: #4a4a4a;
+}
+.carousel .li-right p a{
+    color: #46ad8f;
+}
+.carousel .li-right .see-detail{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    color: #46ad8f;
+}
+.carousel .li-right .see-detail i{
+    width: 16px;
+    height: 8px;
+    margin-left: 10px;
+    display: inline-block;
+    background: gray;
+    background: url("../img/next-btn-g.png") no-repeat;
+}
+.carousel .btn{
+    width: 48px;
+    height: 48px;
+}
+.carousel .pre-btn{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    margin-top: -24px;
+    background: url("../img/pre-btn.png") no-repeat #a7d6c8 center;
+    cursor: pointer;
+}
+.carousel .next-btn{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    margin-top: -24px;
+    background: url("../img/next-btn.png") no-repeat #a7d6c8 center;
+    cursor: pointer;
+}
+
+
+.btn-group{
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    margin-left: -10px;
+}
+.btn-group li{
+    list-style: none;
+    float: left;
+    margin-left: 15px;
+}
+.btn-group li a{
+    width: 20px;
+    height: 20px;
+    font-size: 12px;
+    color: #fff;
+    text-align: center;
+    line-height: 20px;
+    border-radius: 10px;
+    display: block;
+    background: darkgrey;
+}
+.btn-group li.active a{
+    background: darkmagenta;
+}
+/*最近项目样式*/
+.recent-proj .item-wrapper{
+    overflow: hidden;
+    margin: 45px 0 60px -15px;
+}
+.recent-proj .re-left{
+    width: 640px;
+    float: left;
+}
+.recent-proj .re-right{
+    width: 320px;
+    height: 690px;
+    margin: 15px 0 15px 15px;
+    float: left;
+    overflow: hidden;
+}
+.recent-proj .re-right img{
+    height: 100%;
+}
+.re-item{
+    width: 290px;
+    height: 330px;
+    margin: 15px;
+    float: left;
+    position: relative;
+}
+.re-item.active .cotain{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:0;
+    left:0;
+    background: rgba(0,0,0,.6);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#7f000000,endColorstr=#7f000000);
+}
+.re-item .text{
+    position: absolute;
+    top:0;
+    right: 0;
+    bottom:0;
+    left:0;
+    display: none;
+}
+.re-item.active .text{
+    display: block;
+}
+.re-item h3{
+    font-size: 32px;
+    color: #46ad8f;
+    padding: 70px 0 0 40px;
+}
+.re-item p{
+    font-size: 14px;
+    color: #fff;
+    padding: 0 30px 0 40px;
+    margin-top: 40px;
+}
+.re-item button{
+    background: transparent;
+    color: #fff;
+    text-align: center;
+    width: 180px;
+    line-height:38px;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    display: block;
+    margin: 35px auto;
+    outline:0;
+    padding:0;
+    cursor: pointer;
+}
+.re-item img{
+    width: 290px;
+    height: 330px;
+}
+.btn-more{
+    width: 180px;
+    height: 48px;
+    line-height: 48px;
+    padding: 0;
+    border:0;
+    outline: 0;
+    margin: 0 auto 100px;
+    display: block;
+    border-radius: 24px;
+    background: #46ad8f;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+
+/*testimonials*/
+.testimonials{
+    min-width: 1200px;
+    height: 648px;
+    background: #f7f7f7;
+}
+.testimonials h2{
+    padding-top: 90px;
+}
+.testimonials .proj-info-wrapper{
+    width: 698px;
+    height: 250px;
+    margin: 60px auto 0;
+    position: relative;
+}
+.testimonials .proj-info{
+    width: 698px;
+    height: 168px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 40px;
+    background: #fff;
+    border: 1px solid #e3e3e3;
+    display: none;
+}
+.testimonials .proj-info.active{
+    display: block;
+}
+.testimonials .proj-info .title{
+    font-size: 20px;
+    color: #333;
+}
+.testimonials .proj-info .txt{
+    font-size: 16px;
+    color: #999;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+.testimonials .proj-info .bottom-bar {
+    font-size: 16px;
+    color: #46ad8f;
+    height: 24px;
+    line-height:24px;
+}
+.testimonials .proj-info .bottom-bar .p-left i{
+    width: 13px;
+    height: 13px;
+    margin-right: 10px;
+    display: inline-block;
+    background: url("../img/tag.png") no-repeat;
+}
+.testimonials .proj-info .bottom-bar .p-right{
+    float: right;
+}
+.testimonials .proj-info .bottom-bar .p-right i{
+    width: 16px;
+    height: 8px;
+    display: inline-block;
+    margin-left: 5px;
+    background: url("../img/next-btn-g.png") no-repeat;
+}
+
+.testimonials .person{
+    text-align: center;
+    margin-top: 35px;
+}
+.testimonials .person .item{
+    width: 120px;
+    height: 100px;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    margin: 10px;
+    position: relative;
+    cursor: pointer;
+}
+.testimonials .person .item .mask{
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    top: 0;
+    left: 50%;
+    margin-left: -32px;
+    border-radius: 32px;
+    background: rgba(0,0,0,.5);
+}
+.testimonials .person .item.active .mask{
+    display: none;
+}
+.testimonials .person .item.active p{
+    color: #333;
+}
+.testimonials .person .item .pic{
+    width: 64px;
+    height: 64px;
+    margin: 0 auto 10px;
+    border-radius: 32px;
+}
+.testimonials .person .item .pic img{
+    width: 64px;
+    height: 64px;
+    border-radius: 32px;
+}
+.testimonials .person .item p{
+    font-size: 14px;
+    color: #a9a9a9;
+    font-weight:700;
+}
+
+/*btn-more-container*/
+.btn-more-container{
+    position: relative;
+}
+
+
+/*加载动画*/
+.spinner {
+    width: 150px;
+    text-align: center;
+    display: none;
+    position: absolute;
+    left: 50%;
+    margin-left: -75px;
+    margin-top: 7px;
+    top: 0;
+}
+.spinner.active{
+    display: block;
+}
+.spinner > div {
+    width: 30px;
+    height: 30px;
+    background-color: #67CF22;
+
+    border-radius: 100%;
+    display: inline-block;
+    -webkit-animation: bouncedelay 1.4s infinite ease-in-out;
+    animation: bouncedelay 1.4s infinite ease-in-out;
+    /* Prevent first frame from flickering when animation starts */
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+.spinner .bounce1 {
+    -webkit-animation-delay: -0.32s;
+    animation-delay: -0.32s;
+}
+
+.spinner .bounce2 {
+    -webkit-animation-delay: -0.16s;
+    animation-delay: -0.16s;
+}
+
+@-webkit-keyframes bouncedelay {
+    0%, 80%, 100% { -webkit-transform: scale(0.0) }
+    40% { -webkit-transform: scale(1.0) }
+}
+
+@keyframes bouncedelay {
+    0%, 80%, 100% {
+        transform: scale(0.0);
+        -webkit-transform: scale(0.0);
+    } 40% {
+          transform: scale(1.0);
+          -webkit-transform: scale(1.0);
+      }
+}
